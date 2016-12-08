@@ -1,0 +1,120 @@
+/*general*/
+h2{
+  color:white;
+}
+
+html{
+  background color:lightgreen;
+  }
+}
+
+.motto{
+  background-color: #523E32;
+  min-width: 100%;
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo1{
+  height: 5em;
+  width: 5em;
+  position:absolute;
+  z-index: 300;
+}
+
+/*header nav*/
+
+
+.container{
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px 60px;
+    grid-template-rows: 30px 30px;
+    grid-auto-flow: row;
+}
+
+.item-a{
+    grid-column: 1;
+    grid-row: 1 / 2;
+}
+.item-b{
+    grid-column: 2;
+    grid-row: 1 / 2;
+}
+
+.item-c{
+    grid-column: 2;
+    grid-row: 2 / 2;
+}
+.item-d{
+    grid-column: 3;
+    grid-row: 2 / 2;
+}
+
+.item-e{
+    grid-column: 4;
+    grid-row: 2 / 2;
+}
+
+.active{
+  color: white;
+  
+}
+
+header{
+  background-color: #7ab736;
+  margin: -2em;
+  padding: 2em; 
+  float:left;
+  min-width: 100%;
+  display: inline-block;
+}
+
+nav{
+
+}
+
+.headnav ul {
+  text-align: center;
+  padding-top: 10px;
+  margin: 0;
+  display: inline-block;
+  min-width:100%;
+  position: relative;
+  text-decoration: none;
+  float:clear;
+  top:0;
+  left:0;
+}
+
+.headnav li{
+  color:#523E32;
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+}
+
+header h2{
+}
+
+header a:hover{
+  transition: 1.2em;
+}
+
+/*footer*/
+footer{
+  background-color: #827b71;
+  overflow: auto;
+  margin: -1em;
+}
+
+.footnav li{
+  list-style: none;
+}
+
+footer p{
+  color: #93C842;
+}

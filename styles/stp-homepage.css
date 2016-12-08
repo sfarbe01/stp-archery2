@@ -1,0 +1,179 @@
+/*general*/
+.logo{
+  width:100px;
+  height:100px;
+}
+
+body{
+  min-width: 100%;
+  overflow-x: hidden;
+  margin-left: -.2em;
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.motto{
+  background-color: #523E32;
+  min-width: 100%;
+  display: flex;
+  padding-left: .7em;
+  align-content: center;
+  justify-content: center;
+  color: #93C842;
+}
+
+html{
+font-family: 'Arimo', sans-serif;
+  }
+
+p{
+  font-family: 'Arimo', sans-serif;
+}
+
+h1{
+  font-family: 'Arimo', sans-serif;
+}
+
+h2{
+  font-family: 'Arimo', sans-serif;
+}
+
+/*header*/
+header{
+  background-color: #7ab736;
+  padding: .7em;
+  min-width: 100%;
+}
+
+.container{
+  display:flex;
+  justify-content: space-around;
+  
+}
+
+.logohead{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: -2em;
+}
+
+.stph2{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.headnav ul {
+  text-align: center;
+  margin: 0;
+  display: inline-block;
+  min-width:100%;
+  position: relative;
+  text-decoration: none;
+  float:clear;
+  top:0;
+  left:0;
+  padding-left: 3em;
+  padding-right: 1em;
+  max-width: 100vw;
+}
+
+.headnav li{
+  color:#523E32;
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+  max-width: 100vw;
+  color: #523E32;
+}
+
+.active{
+  color: white;
+}
+
+.headnav a{
+  text-decoration: none;
+  color: #523E32;
+}
+
+/*body*/
+.body{
+  background-image:
+    linear-gradient(45deg,
+      rgba(82, 62, 50, .7), 
+      rgba(122, 183, 54, .7)
+    ), url(http://www.warringtonarchers.com/images/banner-archery-experience.jpg);
+  min-height: 300px;
+}
+
+.p1{
+  color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1em;
+  padding-top: 2.2em;
+  font-size:1.5em;
+  text-align: center;
+}
+
+
+/*footer*/
+footer{
+  background-color: #827b71; 
+  padding:.7em;
+}
+
+.topright{
+  display:flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items:flex-start;
+}
+
+.top{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  float:left;
+}
+
+.bottom{
+  display:flex;
+  justify-content: center;
+  height: 7em;
+}
+
+.info{
+  line-height: .45em;
+  color: white;
+  float: left;
+}
+.social{
+  display:flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.join{
+  padding-right: 1em;
+}
+.copyright{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color:#523E32;
+}
+.footnav li{
+  float:left;
+  padding: 1em;
+}
+
+.footnav ul{
+  padding: 0;
+}
